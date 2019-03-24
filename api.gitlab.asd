@@ -9,7 +9,8 @@
   :depends-on ()
   :components ((:module "src"
                 :components
-                ((:file "package"))))
+                ((:file "package")
+                 (:file "issue"))))
   :description ""
   :long-description
   #.(read-file-string
